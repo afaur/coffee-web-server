@@ -1,7 +1,7 @@
 ## Instructions
 
-`npm install`
-`./bin/serve`
+- `npm install`
+- `./bin/serve`
 
 ## Setup
 
