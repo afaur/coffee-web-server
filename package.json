@@ -1,0 +1,26 @@
+{
+  "name": "webserve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Faur",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "~3.2.5",
+    "jade": "~1.8.2",
+    "node-static": "~0.7.6",
+    "coffeescript-module": "~0.2.1",
+    "coffeescript-mixins": "0.0.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "keywords": [],
+  "bugs": {},
+  "homepage": ""
+}

@@ -1,0 +1,13 @@
+{
+  "server": {
+    "port": 8080
+  },
+  "controller": {
+    "Foo": {
+      "index": {
+        "bar": "meow",
+        "baz": "rawr"
+      }
+    }
+  }
+}
