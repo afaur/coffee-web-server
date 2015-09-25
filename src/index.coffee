@@ -90,6 +90,12 @@ class WebServer
   constructor: (port, handler) ->
     @_server = http.createServer(handler)
     @_server.listen(port)
+    # Add status message
+    console.log "------------- Coffee Webserver -------------"
+    console.log "Started server."
+    console.log "listening on port: #{port}."
+    console.log "Press control + c to kill."
+    console.log "--------------------------------------------"
     return @_server
 
 class WebRequest
@@ -159,6 +165,7 @@ class WebRequest
   # Move this out into Router class and use a routes.yml for mapping
   routes:
     'GET':
+      '/': {"controller": 'FooController', "method": 'index'}
       '/FOO': {"controller": 'FooController', "method": 'index'}
       '/BAR': {"controller": 'FooController', "method": 'bar'}
     'POST':

@@ -12,6 +12,7 @@
     "js-yaml": "~3.2.5",
     "jade": "~1.8.2",
     "node-static": "~0.7.6",
+    "coffee-script": "*",
     "coffeescript-module": "~0.2.1",
     "coffeescript-mixins": "0.0.4"
   },
@@ -20,7 +21,9 @@
     "type": "",
     "url": ""
   },
+  "engine": {
+    "node": "v0.10.33"
+  },
   "keywords": [],
-  "bugs": {},
   "homepage": ""
 }
