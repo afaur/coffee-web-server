@@ -6,4 +6,4 @@ echo ${BASH_SOURCE[0]}
 
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
-coffee "$DIR/../src/index.coffee"
+"${DIR}/../node_modules/coffee-script/bin/coffee" "$DIR/../src/index.coffee"
